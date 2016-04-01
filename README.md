@@ -1,4 +1,4 @@
-# _Project: ping-pong
+# Project: ping-pong
 
 #### _A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number, with certain exceptions, version 1.0, current as of 4.1.2016_
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-_The is the solo coding exercise from intro, week 3. It creates a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
+This is the solo coding exercise from intro, week 3. It creates a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
 
 * Numbers divisible by 3 are replaced with "ping"
 * Numbers divisible by 5 are replaced with "pong"

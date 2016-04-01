@@ -1,0 +1,37 @@
+Done:
+
+
+
+To-do:
+
+
+
+My Project:
+
+Create a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
+
+* Numbers divisible by 3 are replaced with "ping"
+* Numbers divisible by 5 are replaced with "pong"
+* Numbers divisible by 15 are replaced with "pingpong"
+
+A user should be able to enter a new number and see new results over and over again.
+
+
+
+Objectives:
+
+* JavaScript business logic and user interface logic are separate
+* Variable names are descriptive and use lower camel case (e.g. myVariableExample)
+* Code has proper indentation and spacing
+* All previous objectives have been met
+
+
+
+
+Further exploration (optional):
+
+If you finish meeting the objectives for this project, consider adding additional features, such as:
+
+* recreate the example layout
+* add images
+* implement different behaviors/effects/images for different inputs
