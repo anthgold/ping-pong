@@ -15,8 +15,12 @@ $(document).ready(function() {
     for (var i = 1; i <= numberRange; i++) {
       // i is also of type number
       var iAsString = i.toString();
-      if (i % 3 === 0) {
+      if (i % 15 === 0) {
+        iAsString = "pingpong";
+      } else if (i % 3 === 0) {
         iAsString = "ping";
+      } else if (i % 5 === 0) {
+        iAsString = "pong";
       }
       $("ul#result").append("<li>" + iAsString + "</li>")
     }
