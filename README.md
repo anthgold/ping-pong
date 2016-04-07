@@ -12,7 +12,7 @@ This is the solo coding exercise from intro, week 3. It creates a web applicatio
 * Numbers divisible by 5 are replaced with "pong"
 * Numbers divisible by 15 are replaced with "pingpong"
 
-A user should be able to enter a new number and see new results over and over again. Page is at http://anthgold.github.io/ping-pong/_
+A user should be able to enter a new number and see new results over and over again. Page is at http://anthgold.github.io/ping-pong
 
 ## Setup/Installation Requirements
 
