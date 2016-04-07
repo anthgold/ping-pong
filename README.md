@@ -1,6 +1,6 @@
 # Project: ping-pong
 
-#### _A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number, with certain exceptions, version 1.0, current as of 4.1.2016_
+#### _A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number, with certain exceptions, version 1.1, current as of 4.7.2016_
 
 #### By _**Anthony C. Gold**_
 
