@@ -15,6 +15,13 @@ var pingPong = function(whatever) {
   };
 };
 
+// Where is the bug?
+// Iterate once, say at 3
+// The second time, iterate at 15
+// It will then go 1,2,3,1,2,3 to 12
+// I think it sets 0-2 of the array, then sets 3-14 starting at 1
+// So I need to reset numberRange on a re-submit
+
 // User Interface Logic
 $(document).ready(function() {
   $("form#number-taker").submit(function(event) {
@@ -25,6 +32,6 @@ $(document).ready(function() {
 
     for (var i = 0; i < numberRange; i++) {
       $("ul#result").append("<li>" + pingPongArray[i] + "</li>")
-    };
-  });
-});
+    };  // Does Loop
+  });   // Takes Input
+});     // Invokes JQuery
